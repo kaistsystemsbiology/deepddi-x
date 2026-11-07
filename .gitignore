@@ -1,0 +1,7 @@
+/data/
+/output/
+/output_*/
+__pycache__/
+*.py[cod]
+.venv/
+*.log
