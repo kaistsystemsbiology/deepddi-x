@@ -1,0 +1,24 @@
+{
+  "protocol": "deepddix-explicit-h-morgan-count-r2-v1",
+  "fingerprint": "Morgan sparse count",
+  "radius": 2,
+  "add_explicit_hydrogens": true,
+  "hydrogen_count_in_atom_invariants": "GetTotalNumHs(includeNeighbors=False)",
+  "atom_invariant_components": [
+    "atomic_number",
+    "total_degree",
+    "hydrogen_count",
+    "formal_charge",
+    "integer_mass_delta",
+    "ring_membership_if_true"
+  ],
+  "hash": "32-bit hash combine, initial value 0, constant 0x9e3779b9",
+  "use_chirality": false,
+  "use_bond_types": true,
+  "include_redundant_environments": false,
+  "similarity": "count Tanimoto",
+  "pca_whiten": false,
+  "runtime_reference_reconstruction_required_before_new_structure": true,
+  "reference_count": 2386,
+  "maximum_allowed_PCA_coordinate_error": 1e-06
+}
